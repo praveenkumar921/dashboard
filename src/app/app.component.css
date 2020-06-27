@@ -1,0 +1,13 @@
+.row {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.col1 {
+  width: 25%;
+}
+
+.col2 {
+  width: 75%;
+}

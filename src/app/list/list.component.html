@@ -1,0 +1,11 @@
+<h2 style="text-align: center; margin-top: 30px;">Dashboard Items</h2>
+<div class="card">
+  <table>
+    <tr
+      style="cursor: pointer;"
+      *ngFor="let item of dashboardList"
+      (click)='getItem(item)'
+    >
+      <td>{{item.title}}</td>
+    </tr>
+  </table>

@@ -1,0 +1,27 @@
+<div class="card">
+  <table *ngIf="dashboardData">
+    <tr>
+      <td><strong>Completed:</strong></td>
+      <td>{{dashboardData?.completed}}</td>
+    </tr>
+    <tr>
+      <td><strong>Id:</strong></td>
+      <td>{{dashboardData?.id}}</td>
+    </tr>
+    <tr>
+      <td><strong>Title:</strong></td>
+      <td> {{dashboardData?.title}}</td>
+    </tr>
+    <tr>
+      <td><strong>UserId:</strong></td>
+      <td>{{dashboardData?.userId}}</td>
+    </tr>
+  </table>
+
+  <div
+    style="font-size: 30px; font-weight: 500;"
+    *ngIf="!dashboardData"
+  >
+    No item Selected
+  </div>
+</div>

@@ -1,0 +1,19 @@
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  max-width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.card {
+  margin: auto;
+  margin-top: 200px;
+  width: 60%;
+  padding: 10px;
+}
